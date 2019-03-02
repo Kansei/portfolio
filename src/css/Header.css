@@ -1,0 +1,19 @@
+.header{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: 5vh;
+}
+
+.header .logo {
+  margin-right: auto;
+  height: 100%;
+}
+
+.header .logo img {
+  height: 100%;
+}
+
+.menu {
+  margin: 0 10px;
+}
