@@ -1,13 +1,17 @@
 .header{
   display: flex;
   align-items: center;
-  margin: 10px;
-  height: 5vh;
+  height: 7vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
 }
 
 .header .logo {
   margin-right: auto;
-  height: 100%;
+  height: 60%;
+  padding: 10px;
 }
 
 .header .logo img {
@@ -15,5 +19,5 @@
 }
 
 .menu {
-  margin: 0 10px;
+  margin: 0 15px;
 }
