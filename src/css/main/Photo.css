@@ -1,0 +1,33 @@
+.photo {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.photo .photo-text {
+  font-size: calc(12px + 1vw);
+  line-height: calc(18px + 1vw);
+}
+
+.photo .photo-more {
+  margin: 5vh;
+}
+.photo .more-button {
+  color: black;
+  border : solid 1px #2c2c2c;
+  border-radius:5px;
+  font-size: calc(16px + 1vw);
+  width: 20vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1vh 2vh;
+}
+
+.photo .more-button:hover {
+  color: white;
+  background-color: black;
+}
+
+a {
+  text-decoration:none;
+}
