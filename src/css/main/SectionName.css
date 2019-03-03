@@ -1,0 +1,13 @@
+.section-name {
+  width: 40vw;
+  margin: 6vw auto 1vw;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.under-line {
+  height: 4px;
+  width: 12vw;
+  background-color: black;
+  margin: 5px auto;
+}

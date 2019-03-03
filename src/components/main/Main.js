@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Top from './Top'
 import About from './About'
+import SectionName from './SectionName'
 
 let lastScrollY = 0;
 
@@ -24,10 +25,9 @@ class Main extends Component {
 
     const shoudBeDefaultHeader = (lastScrollY < window.innerHeight) ? false : true;
 
-    if (shoudBeDefaultHeader != this.state.isDefaultHeader) {
+    if (shoudBeDefaultHeader !== this.state.isDefaultHeader) {
       this.setState({isDefaultHeader: shoudBeDefaultHeader})
     }
-
   }
 
   render(){
@@ -35,6 +35,7 @@ class Main extends Component {
       <div>
         <Header isDefault={this.state.isDefaultHeader} />
         <Top />
+        <SectionName section="About me"/>
         <About />
       </div>
     );
