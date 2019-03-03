@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Top from './Top'
 import About from './About'
-import SectionName from './SectionName'
 
 let lastScrollY = 0;
 
@@ -35,7 +34,6 @@ class Main extends Component {
       <div>
         <Header isDefault={this.state.isDefaultHeader} />
         <Top />
-        <SectionName section="About me"/>
         <About />
       </div>
     );

@@ -1,3 +1,45 @@
-.about {
-  height: 1600px;
+.about .contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1100px;
+  min-width: 360px;
+  margin: 0 auto;
+}
+
+.about .icon {
+  width: calc(50px + 17vw);
+  min-width: 140px;
+  padding: 2vw 3.5vw;
+  padding-left: 0;
+}
+
+.about .icon img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.about .introduction {
+  width: 60%;
+  min-width: 340px;
+  font-family: 'Yu Gothic','YuGothic';
+}
+
+.about .name {
+  font-size: calc(18px + 1vw);
+  margin-bottom: calc(8px + 1.2vh);
+}
+
+.about .text {
+  font-size: calc(8px + 1vw);
+  line-height: calc(16px + 1vw);
+  color: #4c4c4c;
+}
+
+@media screen and (max-width:480px) {
+  .about .contents {
+    display: static;
+  }
 }
