@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Top from './Top'
 import About from './About'
+import Carrer from './Carrer'
 
 let lastScrollY = 0;
 
@@ -35,6 +36,7 @@ class Main extends Component {
         <Header isDefault={this.state.isDefaultHeader} />
         <Top />
         <About />
+        <Carrer />
       </div>
     );
   }

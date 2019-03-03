@@ -1,0 +1,26 @@
+.carrer-item {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  min-width: 300px;
+  margin: 2vh auto;
+  font-size: calc(8px + 1vw);
+  font-family: 'Yu Gothic','YuGothic';
+}
+
+.carrer-item .date {
+  width: 30%;
+  margin-right: auto;
+}
+
+.carrer-item .event {
+  width: 50%;
+}
+
+.carrer-item .event li {
+  margin-bottom: calc(1px + 0.5vw);
+}
+
+.carrer-item .space {
+  width: 15%;
+}
