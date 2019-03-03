@@ -1,4 +1,4 @@
-.about .contents {
+.about {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -24,22 +24,15 @@
 .about .introduction {
   width: 60%;
   min-width: 300px;
-  font-family: 'Yu Gothic','YuGothic';
 }
 
 .about .name {
   font-size: calc(18px + 1vw);
-  margin-bottom: calc(8px + 1.2vh);
+  margin: calc(8px + 1.2vh) 0;
 }
 
 .about .text {
   font-size: calc(8px + 1vw);
   line-height: calc(16px + 1vw);
   color: #4c4c4c;
-}
-
-@media screen and (max-width:480px) {
-  .about .contents {
-    display: static;
-  }
 }

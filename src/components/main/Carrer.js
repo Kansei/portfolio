@@ -1,10 +1,10 @@
 import React from 'react'
-import SectionName from './SectionName'
+import Section from './Section'
 import CarrerItem from './CarrerItem'
 import '../../css/main/Carrer.css'
 
 const Carrer = () => {
-  const carrer = [
+  const carrers = [
     { date: "1996/12/27",
       event: ["福岡県飯塚市で生を受ける"] },
     { date: "1996 - 2012",
@@ -21,19 +21,22 @@ const Carrer = () => {
       event: ["LifeIsTechメンター"] },
     ]
 
-    const items = carrer.map((item, index) => {
-      return(
-        <CarrerItem key={index} date={item["date"]} event={item["event"]}/>
-      )
-    })
+  const items = carrers.map((item, index) => {
+    return(
+      <CarrerItem key={index} date={item["date"]} event={item["event"]}/>
+    )
+  })
 
-  return(
+  const carrer = (
     <div className="carrer">
-      <SectionName section="Carrer" />
-      <div className="carrer-items">
+       <div className="carrer-items">
         {items}
       </div>
     </div>
+  );
+
+  return(
+    <Section name="Carrer" content={carrer} />
   );
 }
 

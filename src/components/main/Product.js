@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionName from './SectionName';
+import Section from './Section';
 import ProductItem from './ProductItem';
 import '../../css/main/Product.css';
 
@@ -31,13 +31,16 @@ const Product = () => {
     );
   })
 
-  return(
+  const product = (
     <div className="product">
-      <SectionName section="Product"/>
       <div className="products">
         {items}
       </div>
     </div>
+  );
+
+  return(
+    <Section name="Product" content={product} />
   );
 }
 

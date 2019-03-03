@@ -1,6 +1,11 @@
+.section {
+  margin: 15vh 0;
+  font-family: 'Yu Gothic','YuGothic';
+}
+
 .section-name {
   width: 100%;
-  margin: 6vw auto 3vh;
+  margin: 0 auto 3vh;
   font-size: calc(26px + 1.5vw);
   text-align: center;
 }
