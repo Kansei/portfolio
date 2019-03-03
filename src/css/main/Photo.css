@@ -15,12 +15,12 @@
 .photo .more-button {
   color: black;
   border : solid 1px #2c2c2c;
-  border-radius:5px;
   font-size: calc(16px + 1vw);
   width: 20vw;
   margin: 0 auto;
   text-align: center;
   padding: 1vh 2vh;
+  transition: .3s;
 }
 
 .photo .more-button:hover {
