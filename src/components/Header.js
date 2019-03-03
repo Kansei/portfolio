@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../css/Header.css'
 
 const Header = (props) => {
@@ -17,7 +18,9 @@ const Header = (props) => {
 
   return(
     <div className="header" style={style}>
-        <div className="logo"><img src={logo} alt="kk"/></div>
+        <div className="logo">
+          <Link to="/"><img src={logo} alt="kk"/></Link>
+        </div>
         <div className="menu">About me</div>
         <div className="menu">Carrer</div>
         <div className="menu">Product</div>

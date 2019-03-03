@@ -10,7 +10,7 @@
 
 .header .logo {
   margin-right: auto;
-  height: 60%;
+  height: calc(18px + 1vw);
   padding: 10px;
 }
 
@@ -19,5 +19,6 @@
 }
 
 .menu {
-  margin: 0 15px;
+  margin: 0 1.5vw;
+  font-size: calc(8px + 1vw);
 }
