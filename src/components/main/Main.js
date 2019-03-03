@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
-import Header from '../Header'
-import Top from './Top'
-import About from './About'
-import Carrer from './Carrer'
+import React, { Component } from 'react';
+import Header from '../Header';
+import Top from './Top';
+import About from './About';
+import Carrer from './Carrer';
+import Product from './Product';
 
 let lastScrollY = 0;
 
@@ -37,6 +38,7 @@ class Main extends Component {
         <Top />
         <About />
         <Carrer />
+        <Product />
       </div>
     );
   }
