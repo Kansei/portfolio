@@ -1,32 +1,22 @@
 import React, { Component } from 'react'
 import '../css/Header.css'
-import { white } from 'ansi-colors';
 
-let logo;
-let style;
-
-class Header extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      isDefault: props.isDefault,
-    };
+const Header = (props) => {
+  let logo;
+  let style;
+  if(props.isDefault){
+    logo = "images/kk-logo-black.png";
+    style = {};
+  } else {
+    logo = "images/kk-logo-white.png";
+    style = {
+      color: 'white',
+      background: 'transparent',
+   };
   }
 
-  render(){
-    if(this.state.isDefault){
-      logo = "images/kk-logo-black.png";
-      style = {};
-    } else {
-      logo = "images/kk-logo-white.png";
-      style = {
-        color: 'white',
-        background: 'rgba(0,0,0,0.8)',
-      };
-    }
-
-    return(
-      <div className="header" style={style}>
+  return(
+    <div className="header" style={style}>
         <div className="logo"><img src={logo} alt="kk"/></div>
         <div className="menu">About me</div>
         <div className="menu">Carrer</div>
@@ -34,8 +24,7 @@ class Header extends Component {
         <div className="menu">Photo</div>
         <div className="menu">Contact</div>
       </div>
-    );
-  }
+  );
 }
 
 export default Header;
