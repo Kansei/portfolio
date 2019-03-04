@@ -5,6 +5,7 @@ import About from './About';
 import Carrer from './Carrer';
 import Product from './Product';
 import Photo from './Photo';
+import Contact from './Contact'
 
 let lastScrollY = 0;
 
@@ -41,6 +42,7 @@ class Main extends Component {
         <Carrer />
         <Product />
         <Photo />
+        <Contact />
       </div>
     );
   }

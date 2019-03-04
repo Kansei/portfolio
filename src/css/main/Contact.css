@@ -1,0 +1,25 @@
+.contact {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact .mail {
+  text-align: center;
+  font-size: calc(16px + 1vw);
+  margin: 5vw;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin: 0 3vw;
+  width: 5vw;
+}
+
+.link img {
+  width: 100%;
+}
