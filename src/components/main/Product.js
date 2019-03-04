@@ -8,12 +8,12 @@ const Product = (props) => {
   const products = [
     {
       name: "Grumo",
-      introduction: "寝坊を無くすための、複数人で使う目覚ましアプリ。寝坊した人にゲップの音などのアラームを送りつけて起こすことができる。３人チームで開発し、Railsでサーバーサイドの開発とロゴのデザインを行った。",
+      introduction: "寝坊を無くすための、複数人で使う目覚ましアプリ。寝坊した人にゲップの音などのアラームを送りつけて起こすことができる。",
       image: "/images/grumo.png"
     },
     {
       name: "飯塚製麺所R注文管理システム",
-      introduction: "学祭で飯塚製麺所Rというまぜそばのお店を出した時に、働くスタッフをサポートするために開発した。",
+      introduction: "大学の友人と学祭で飯塚製麺所Rというまぜそばのお店を出した時に、注文管理の煩雑さから起こりえる、スタッフ同士の連携ミスを無くすために開発した。",
       image: "/images/isr.png",
       url: "https://iizukaseimenjo.herokuapp.com/"
     },

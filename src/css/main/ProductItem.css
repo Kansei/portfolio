@@ -22,7 +22,7 @@
 }
 .product-item .product-name {
   padding-bottom: 1.2vh;
-  font-size: calc(12px + 1vw);
+  font-size: calc(10px + 0.8vw);
 }
 
 .product-item .product-introduction {
