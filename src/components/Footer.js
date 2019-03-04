@@ -5,7 +5,7 @@ const Footer = () => {
   return(
     <div className="footer">
       <div className="copyright">
-        &copy; 2018 KANSEI KOGAMI
+        &copy; 2019 KANSEI KOGAMI
       </div>
     </div>
   );
