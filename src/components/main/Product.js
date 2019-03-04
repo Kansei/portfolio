@@ -4,7 +4,7 @@ import ProductItem from './ProductItem';
 import '../../css/main/Product.css';
 
 
-const Product = () => {
+const Product = (props) => {
   const products = [
     {
       name: "Grumo",
@@ -26,7 +26,7 @@ const Product = () => {
   ]
 
   const items = products.map((product, index) => {
-    return(
+    return (
       <ProductItem key={index} product={product} />
     );
   })
@@ -39,8 +39,10 @@ const Product = () => {
     </div>
   );
 
-  return(
-    <Section name="Product" content={product} />
+  return (
+    <div id={props.id}>
+      <Section name="Product" content={product} />
+    </div>
   );
 }
 

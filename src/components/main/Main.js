@@ -37,12 +37,12 @@ class Main extends Component {
     return(
       <div>
         <Header isDefault={this.state.isDefaultHeader} />
-        <Top />
-        <About />
-        <Carrer />
-        <Product />
-        <Photo />
-        <Contact />
+        <Top id="top"/>
+        <About id="about"/>
+        <Carrer id="carrer"/>
+        <Product id="product"/>
+        <Photo id="photo"/>
+        <Contact id="contact"/>
       </div>
     );
   }
