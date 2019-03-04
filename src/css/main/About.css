@@ -28,11 +28,24 @@
 
 .about .name {
   font-size: calc(18px + 1vw);
-  margin: calc(8px + 1.2vh) 0;
+  margin-bottom: 1.5vh;
+}
+
+.about .affiliation {
+  font-size: calc(6px + 1vw);
+  color: #4c4c4c;
+}
+
+.about .info {
+  margin: calc(12px + 1.2vh) 0;
 }
 
 .about .text {
   font-size: calc(8px + 1vw);
   line-height: calc(16px + 1vw);
   color: #4c4c4c;
+}
+
+.about li {
+  margin: 1.1vw 0;
 }
