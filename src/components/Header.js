@@ -1,31 +1,41 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import '../css/Header.css'
 
 const Header = (props) => {
   let logo;
-  let style;
+  let bgstyle;
+  let colorstyle
   if(props.isDefault){
     logo = "images/kk-logo-black.png";
-    style = {};
+    bgstyle = {};
+    colorstyle = {};
   } else {
     logo = "images/kk-logo-white.png";
-    style = {
-      color: 'white',
-      background: 'transparent',
-   };
+    bgstyle = { background: 'transparent' };
+    colorstyle = { color: 'white' };
   }
 
   return(
-    <div className="header" style={style}>
+    <div className="header" style={bgstyle}>
         <div className="logo">
-          <Link to="/"><img src={logo} alt="kk"/></Link>
+          <AnchorLink href="#top"><img src={logo} alt="kk"/></AnchorLink>
         </div>
-        <div className="menu">About me</div>
-        <div className="menu">Carrer</div>
-        <div className="menu">Product</div>
-        <div className="menu">Photo</div>
-        <div className="menu">Contact</div>
+        <div className="menu">
+          <AnchorLink href="#about" offset="60" style={colorstyle}>About me</AnchorLink>
+        </div>
+        <div className="menu">
+          <AnchorLink href="#carrer" offset="60" style={colorstyle}>Carrer</AnchorLink>
+        </div>
+        <div className="menu">
+          <AnchorLink href="#product" offset="60" style={colorstyle}>Product</AnchorLink>
+        </div>
+        <div className="menu">
+          <AnchorLink href="#photo" offset="60" style={colorstyle}>Photo</AnchorLink>
+        </div>
+        <div className="menu">
+          <AnchorLink href="#contact"  offset="60" style={colorstyle}>Contact</AnchorLink>
+        </div>
       </div>
   );
 }
