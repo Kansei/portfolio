@@ -1,0 +1,18 @@
+.section {
+  margin: 15vh 0;
+  font-family: 'Yu Gothic','YuGothic';
+}
+
+.section-name {
+  width: 100%;
+  margin: 0 auto 3vh;
+  font-size: calc(26px + 1.5vw);
+  text-align: center;
+}
+
+.under-line {
+  height: 0.5vh;
+  width: 9vh;
+  background-color: black;
+  margin: 5px auto;
+}

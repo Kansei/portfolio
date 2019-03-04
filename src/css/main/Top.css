@@ -1,0 +1,29 @@
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/top_01.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.top .center-box {
+  text-align: center;
+}
+
+.top .logo {
+  height: 10vh;
+  margin: 35px 0;
+}
+
+.top .logo img{
+  height: 100%;
+}
+
+.top .name {
+  height: 3vh;
+}
+
+.top .name img{
+  height: 100%;
+}

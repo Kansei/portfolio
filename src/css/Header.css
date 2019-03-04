@@ -1,0 +1,24 @@
+.header{
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+}
+
+.header .logo {
+  margin-right: auto;
+  height: calc(18px + 1vw);
+  padding: 10px;
+}
+
+.header .logo img {
+  height: 100%;
+}
+
+.menu {
+  margin: 0 1.5vw;
+  font-size: calc(8px + 1vw);
+}

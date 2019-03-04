@@ -1,0 +1,40 @@
+.product-item {
+  width: 30%;
+  min-width: 300px;
+  height: 30vw;
+  min-height: 320px;
+  border : solid 1px #c3c3c3;
+  box-shadow : 0 3px 8px rgba(100, 100, 100, 0.3) ;
+  margin: 0 2vh 5vh;
+}
+
+.product-item .product-image {
+  width: 100%;
+}
+
+.product-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-item .product-text {
+  margin: 2.5vh;
+}
+.product-item .product-name {
+  padding-bottom: 1.2vh;
+  font-size: calc(12px + 1vw);
+}
+
+.product-item .product-introduction {
+  font-size: calc(10px + 0.5vw);
+  line-height: calc(14px + 0.5vw);
+  color: #4c4c4c;
+}
+
+.product-item a {
+  color: black;
+  text-decoration:none;
+}
+.product-item a:hover {
+  color: #8c8c8c;
+}
