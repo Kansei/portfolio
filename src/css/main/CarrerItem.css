@@ -3,23 +3,23 @@
   justify-content: center;
   width: 80%;
   min-width: 300px;
-  margin: 2vh auto;
-  font-size: calc(8px + 1vw);
+  margin: 25px auto;
+  font-size: 18px;
 }
 
 .carrer-item .date {
-  width: 30%;
-  margin-right: auto;
+  width: 150px;
 }
 
 .carrer-item .event {
-  width: 55%;
+  width: 40%;
+  min-width: 320px;
 }
 
-.carrer-item .event li {
-  margin-bottom: calc(1px + 0.5vw);
+.carrer-item .space-center {
+  width: 20%;
 }
 
-.carrer-item .space {
-  width: 13%;
+.carrer-item .space-left {
+  width: calc(40% - 150px);
 }

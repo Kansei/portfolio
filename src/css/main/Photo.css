@@ -1,27 +1,27 @@
 .photo {
   width: 80%;
   max-width: 800px;
-  margin: 3vw auto;
+  margin: 35px auto;
 }
 
 .photo .photo-text {
-  font-size: calc(6px + 1.5vw);
-  line-height: calc(20px + 1vw);
+  font-size: 22px;
+  line-height: 38px;
   text-align: center;
 }
 
 .photo .photo-more {
-  margin: 5vh;
+  margin: 35px;
 }
 .photo .more-button {
   color: black;
-  border : solid 1px #2c2c2c;
-  font-size: calc(10px + 1.5vw);
-  width: 18vw;
+  border : solid 1px black;
+  font-size: 22px;
+  width: 180px;
   margin: 0 auto;
   text-align: center;
-  padding: 1vh 2vh;
-  transition: .3s;
+  padding: 10px;
+  transition: .5s;
 }
 
 .photo .more-button:hover {

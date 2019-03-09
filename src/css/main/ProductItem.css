@@ -1,11 +1,9 @@
 .product-item {
-  width: 30%;
+  width: 25%;
   min-width: 300px;
-  height: 30vw;
-  min-height: 320px;
   border : solid 1px #c3c3c3;
   box-shadow : 0 3px 8px rgba(100, 100, 100, 0.3) ;
-  margin: 0 2vh 5vh;
+  margin: 20px;
 }
 
 .product-item .product-image {
@@ -18,16 +16,16 @@
 }
 
 .product-item .product-text {
-  margin: 2.5vh;
+  margin: 15px;
 }
 .product-item .product-name {
-  padding-bottom: 1.2vh;
-  font-size: calc(10px + 0.8vw);
+  padding-bottom: 15px;
+  font-size: 22px;
 }
 
 .product-item .product-introduction {
-  font-size: calc(10px + 0.5vw);
-  line-height: calc(14px + 0.5vw);
+  font-size: 16px;
+  line-height: 26px;
   color: #4c4c4c;
 }
 

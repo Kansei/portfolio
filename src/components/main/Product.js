@@ -13,7 +13,7 @@ const Product = (props) => {
     },
     {
       name: "飯塚製麺所R注文管理システム",
-      introduction: "大学の友人と学祭で飯塚製麺所Rというまぜそばのお店を出した時に、注文管理の煩雑さから起こりえる、スタッフ同士の連携ミスを無くすために開発した。",
+      introduction: "大学の友人と学祭で飯塚製麺所Rというまぜそばのお店を出した時に、注文管理の煩雑さから起こりえるスタッフ同士の連携ミスを無くすために開発した。",
       image: "/images/isr.png",
       url: "https://iizukaseimenjo.herokuapp.com/"
     },
