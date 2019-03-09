@@ -8,7 +8,7 @@ const Photo = (props) => {
     <div className="photo">
       <div className="photo-text">
         写真が好きです。<br/>
-        日常にあるちぐはぐなモノを見つけて撮っています。<br/>
+        なんてことない写真を撮っています。<br/>
         最近は姪っ子と甥っ子を撮るのが楽しいです。
       </div>
       <div className="photo-more">
