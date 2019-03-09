@@ -10,10 +10,11 @@ const CarrerItem = (props) => {
 
   return(
     <div className="carrer-item">
-      <div className="space"></div>
+      <div className="space-left"></div>
       <div className="date">
         {props.date}
       </div>
+      <div className="space-center"></div>
       <div className="event">
         <ul>
           {events}

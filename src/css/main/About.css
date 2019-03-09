@@ -10,7 +10,7 @@
 }
 
 .about .icon {
-  width: calc(50px + 17vw);
+  width: 240px;
   min-width: 140px;
   padding: 2vw 3.5vw;
   padding-left: 0;
@@ -27,12 +27,12 @@
 }
 
 .about .name {
-  font-size: calc(18px + 1vw);
+  font-size: 24px;
   margin-bottom: 1.5vh;
 }
 
 .about .affiliation {
-  font-size: calc(6px + 1vw);
+  font-size: 18px;
   color: #4c4c4c;
 }
 
@@ -41,11 +41,28 @@
 }
 
 .about .text {
-  font-size: calc(8px + 1vw);
-  line-height: calc(16px + 1vw);
+  font-size: 16px;
+  line-height: 24px;
   color: #4c4c4c;
 }
 
 .about li {
   margin: 0.5vw 0;
+}
+
+@media screen and (max-width:500px) {
+  .about .icon {
+    width: 160px;
+  }
+
+  .about .name {
+    font-size: 22px;
+  }
+
+  .about .affiliation {
+    font-size: 16px;
+  }
+  .about .text {
+    font-size: 14px;
+  }
 }

@@ -5,8 +5,8 @@
 
 .contact .mail {
   text-align: center;
-  font-size: calc(16px + 1vw);
-  margin: 5vw;
+  font-size: 30px;
+  margin: 75px;
 }
 
 .links {
@@ -16,10 +16,22 @@
 }
 
 .link {
-  margin: 0 3vw;
-  width: 5vw;
+  margin: 0 25px;
+  width: 30px;
 }
 
 .link img {
   width: 100%;
+}
+
+@media screen and (max-width:500px) {
+  .contact .mail {
+    font-size: 20px;
+    margin: 75px 0;
+  }
+
+  .link {
+    margin: 0 10px;
+    width: 30px;
+  }
 }

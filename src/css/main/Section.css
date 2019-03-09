@@ -1,19 +1,29 @@
 .section {
-  margin: 20vh 0;
-  font-family: 'Yu Gothic','YuGothic';
+  margin: 100px 0;
+  font-family: 'Yu Gothic','YuGothic','Poppins',sans-serif;
 }
 
 .section-name {
   width: 100%;
-  margin: 0 auto 3vh;
-  font-size: calc(26px + 1.5vw);
+  margin: 0 auto 15px;
+  font-size: 42px;
   text-align: center;
   font-family: 'Quicksand',sans-serif;
 }
 
 .under-line {
-  height: 0.5vh;
-  width: 9vh;
+  height: 4px;
+  width: 80px;;
   background-color: black;
-  margin: 1vh auto;
+  margin: 15px auto;
+}
+
+@media screen and (max-width:500px) {
+  .section-name {
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  .under-line {
+    margin: 10px auto;
+  }
 }
