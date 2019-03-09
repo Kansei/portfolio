@@ -1,6 +1,6 @@
 .section {
-  margin: 20vh 0;
-  font-family: 'Yu Gothic','YuGothic';
+  margin: 100px 0;
+  font-family: 'Yu Gothic','YuGothic','Poppins',sans-serif;
 }
 
 .section-name {
