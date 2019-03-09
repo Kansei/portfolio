@@ -28,5 +28,13 @@
 }
 
 @media screen and (max-width:500px) {
+  .header {
+    height: 60px;
+  }
+
+  .header .logo {
+    height: 40%;
+    margin-left: 5px;
+  }
   .menu {display: none;}
 }

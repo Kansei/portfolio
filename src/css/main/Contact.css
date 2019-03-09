@@ -23,3 +23,15 @@
 .link img {
   width: 100%;
 }
+
+@media screen and (max-width:500px) {
+  .contact .mail {
+    font-size: 20px;
+    margin: 75px 0;
+  }
+
+  .link {
+    margin: 0 10px;
+    width: 30px;
+  }
+}

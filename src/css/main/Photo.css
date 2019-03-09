@@ -28,3 +28,15 @@
   color: white;
   background-color: black;
 }
+
+@media screen and (max-width:500px) {
+  .photo {
+    min-width: 320px;
+  }
+
+  .photo .photo-text {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+  }
+}

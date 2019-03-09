@@ -2,9 +2,8 @@
   display: flex;
   justify-content: center;
   width: 80%;
-  min-width: 470px;
   margin: 25px auto;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .carrer-item .date {
@@ -23,4 +22,33 @@
 
 .carrer-item .space-left {
   width: calc(40% - 150px);
+}
+
+@media screen and (max-width:500px) {
+  .carrer-item{
+    display: block;
+  }
+
+  .carrer-item .date {
+    font-size: 18px;
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 12px;
+  }
+
+  .carrer-item .event {
+    font-size: 16px;
+    width: 100%;
+    min-width: 0;
+    margin-left: 8%;
+  }
+
+  .carrer-item .space-center {
+    width: 0;
+  }
+
+  .carrer-item .space-left {
+    width: 0;
+  }
+
 }

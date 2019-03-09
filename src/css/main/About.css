@@ -49,3 +49,20 @@
 .about li {
   margin: 0.5vw 0;
 }
+
+@media screen and (max-width:500px) {
+  .about .icon {
+    width: 160px;
+  }
+
+  .about .name {
+    font-size: 22px;
+  }
+
+  .about .affiliation {
+    font-size: 16px;
+  }
+  .about .text {
+    font-size: 14px;
+  }
+}
