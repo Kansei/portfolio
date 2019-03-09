@@ -51,7 +51,7 @@ const Carrer = (props) => {
 
   return (
     <div id={props.id}>
-      <Section name="Carrer" content={carrer} />
+      <Section name="Carrier" content={carrer} />
     </div>
   );
 }

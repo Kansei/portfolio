@@ -25,7 +25,7 @@ const Header = (props) => {
           <AnchorLink href="#about" offset="60" style={colorstyle}>About me</AnchorLink>
         </div>
         <div className="menu">
-          <AnchorLink href="#carrer" offset="60" style={colorstyle}>Carrer</AnchorLink>
+          <AnchorLink href="#carrer" offset="60" style={colorstyle}>Carrier</AnchorLink>
         </div>
         <div className="menu">
           <AnchorLink href="#product" offset="60" style={colorstyle}>Product</AnchorLink>
