@@ -3,7 +3,7 @@ import '../../css/main/Section.css'
 
 const Section = (props) => {
   return(
-    <div className="section">
+    <div className="section effect-fade">
       <div className="section-name">
           {props.name}
         <div className="under-line"></div>

@@ -17,7 +17,7 @@ const Header = (props) => {
   }
 
   return(
-    <div className="header" style={bgstyle}>
+    <div className="header effect-fadein-header" style={bgstyle}>
         <div className="logo">
           <AnchorLink href="#top"><img src={logo} alt="kk"/></AnchorLink>
         </div>

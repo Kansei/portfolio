@@ -31,6 +31,18 @@ class Main extends Component {
     if (shoudBeDefaultHeader !== this.state.isDefaultHeader) {
       this.setState({isDefaultHeader: shoudBeDefaultHeader})
     }
+
+    // スクロールに合わせたアニメーション
+    var sections = document.getElementsByClassName("effect-fade");
+
+    for (let i = 0; i< sections.length; i++) {
+      if (sections[i].classList.contains("effect-scroll")){continue;}
+      let sectionPositoin = sections[i].getBoundingClientRect();
+
+      if (sectionPositoin.top < 400) {
+        sections[i].classList.add("effect-scroll");
+      }
+    }
   }
 
   render(){
