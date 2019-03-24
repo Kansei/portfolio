@@ -12,7 +12,10 @@ const Header = (props) => {
     colorstyle = {};
   } else {
     logo = "images/kk-logo-white.png";
-    bgstyle = { background: 'transparent' };
+    bgstyle = {
+      background: 'transparent',
+      boxShadow: 0
+    };
     colorstyle = { color: 'white' };
   }
 
