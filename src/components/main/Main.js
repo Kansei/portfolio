@@ -39,7 +39,7 @@ class Main extends Component {
       if (sections[i].classList.contains("effect-scroll")){continue;}
       let sectionPositoin = sections[i].getBoundingClientRect();
 
-      if (sectionPositoin.top < 400) {
+      if (sectionPositoin.top < 600) {
         sections[i].classList.add("effect-scroll");
       }
     }
