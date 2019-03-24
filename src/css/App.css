@@ -7,14 +7,14 @@ a {
 }
 
 .effect-fadein-top {
-  animation: appear 4s both;
+  animation: appear 4s forwards;
 }
 
 .effect-fadein-header {
   animation-name: appear;
   animation-duration: 1s;
-  animation-delay: 2s;
-  animation-fill-mode: both;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
   opacity: 0;
 }
 
